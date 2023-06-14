@@ -22,3 +22,6 @@ include_directories(deps/CGAL-5.4.1/include)
 add_executable(cgalTest main.cpp)
 target_link_libraries(cgalTest CGAL::CGAL)
 
+add_executable(cgalTest-surprising surprising.cpp)
+target_link_libraries(cgalTest-surprising CGAL::CGAL)
+
