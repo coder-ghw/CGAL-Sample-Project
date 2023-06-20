@@ -10,5 +10,5 @@ cmake -DCMAKE_BUILD_TYPE=Debug \
 
 make -j8 || exit 1
 
-./cgalTest-surprising
+./cgalTest-hello
 

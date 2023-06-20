@@ -4,10 +4,6 @@
 #include <iostream>
 #include <sstream>
 
-/**
- * 这是因为这些分数不能表示为双精度数字，而共线性测试将在内部计算一个3x3矩阵的行列式，
- * 该行列式接近但不等于零，因此第一和第二个测试的非共线性。
- */
 void test_1() {
   typedef CGAL::Simple_cartesian<double> Kernel;
   typedef Kernel::Point_2 Point_2;
